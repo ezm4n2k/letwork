@@ -8,7 +8,7 @@ python3 letwork.py -i <IP> -o output.txt
 
 python3 letwork.py -i <IP> -ht <API_KEY> -o output.txt
 
-python3 letwork.py -c
+python3 letwork.py -i <IP> -c
 
 Parameters 🧰
 
