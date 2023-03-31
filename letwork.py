@@ -7,7 +7,7 @@ from termcolor import colored
 
 def read_config():
     parser = argparse.ArgumentParser(description="Scan IP address to find associated domains")
-    parser.add_argument("-u", "--ip", help="IP address to scan")
+    parser.add_argument("-i", "--ip", help="IP address to scan")
     parser.add_argument("-ht", "--hackertarget", help="API key for HackerTarget")
     parser.add_argument("-c", "--create-config", help="Create a configuration file for storing API keys", action="store_true")
     parser.add_argument("-o", "--output", help="Save output to JSON file")
